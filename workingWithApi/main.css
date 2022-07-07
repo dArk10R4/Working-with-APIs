@@ -1,0 +1,243 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  --headerbg: #fff;
+  --bodybg: #f2f2f2;
+}
+.header {
+  padding: 23px 81px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--headerbg);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+.header__h1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #111517;
+}
+.header__span {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #111517;
+}
+body {
+  background: var(--bodybg);
+}
+.main {
+  padding: 48px 80px;
+}
+.main__div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  padding: 19px 32px;
+  width: 40%;
+  min-width: 350px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #848484;
+}
+.lupa {
+  margin-right: 24px;
+}
+#search {
+  border: none;
+}
+#search:focus {
+  outline: none;
+}
+.main__div1__select {
+  width: 200px;
+  padding: 18px 24px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+}
+.main__div2 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cart {
+  width: 264px;
+  height: 336px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+  margin-bottom: 75px;
+}
+.cart > img {
+  width: 100%;
+  height: 160px;
+  align-self: center;
+  border-radius: 5px;
+}
+.info {
+  margin-top: 24px;
+  padding-left: 24px;
+}
+.info__name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  color: #111517;
+  margin-bottom: 16px;
+}
+.info__country > strong {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  color: #111517;
+}
+.info__country {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  color: #111517;
+  margin-bottom: 8px;
+}
+.detail {
+  padding: 80px 80px;
+}
+.back {
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+  padding: 10px 32px;
+  border: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #111517;
+}
+.back__span {
+  margin-left: 10px;
+}
+.detail__div {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.detail__img {
+  margin-right: 120px;
+}
+.olkeAdi {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #111517;
+  margin-bottom: 23px;
+}
+.infolar {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #111517;
+}
+.infolar > span {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #111517;
+}
+.detail__div__div__div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.borders {
+  margin-top: 68px;
+}
+.borders > b {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-right: 16px;
+  color: #111517;
+}
+.borders > span {
+  display: inline-block;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+  border-radius: 2px;
+  padding: 5px 28px;
+  margin-right: 10px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #111517;
+  margin-bottom: 10px;
+}
+.detail__img {
+  width: 560px;
+  height: 401px;
+  border-radius: 5px;
+}
+.dp-none {
+  display: none;
+}
